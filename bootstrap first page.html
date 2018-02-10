@@ -1,0 +1,350 @@
+
+<html>
+  <head>
+<style>
+#heading{
+  font-family:helvetica;
+  padding: 10px;
+  text-align:center;
+}
+#footer{
+  background-color: #323745;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#star:hover{
+	color: orange;
+}
+</style>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Codeshala.org</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </head>
+  <body>
+    
+    
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign up!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Username</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Set Password</label>
+             <input type="Password" class="form-control" id="recipient-password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <a class="navbar-brand" href="http://codeshala.org"><img src="https://calendarmedia.blob.core.windows.net/assets/3867334a-8bcc-4f44-9684-3fe63020ec24-small.png" class="img-fluid" height="70" width="70"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Login
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">New User</a>
+          <a class="dropdown-item" href="#">Sign In</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Forgot Password</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+      <div class="row">
+        <div class="col-lg-9" style="text-align:center">
+          <img  style="padding:10px" src="http://codeshala.org/assets/images/site_logo.png" height=80 width=325>
+         <h2 id="heading">LETS GET BETTER AT PROGRAMMING</h2>
+         <br>
+         <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">LIVE CONTESTS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">UPCOMING</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">HACKATHONS</a>
+  </li>
+  
+</ul>
+<div class="row" style="margin-top:70px; margin-bottom:70px;">
+<div class="col-lg-2">
+  </div>
+<div class="col-lg-4">
+<div class="card">
+    <div class="card-block">
+  <img class="card-img-top" src="http://hackopreneur.tech/images/wwc.png" height="160" width="286" alt="Card image cap">
+  <br>
+<br>
+  <div class="card-block">
+    <h4 class="card-title">Women Who Code&nbsp;&nbsp;<i id="star" class="fas fa-star"></i></h4>
+    <p class="card-text">Our mission is to inspire women to excel in technology careers</p>
+    <a href="#" class="btn btn-success">Start Now</a>
+    <br>
+<br>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+<div class="col-lg-4">
+<div class="card">
+    <div class="card-block">
+  <img class="card-img-top" src="https://hackerearth-media.global.ssl.fastly.net/media/hackathon/adcat-hackasurance/images/5fdb09f207-HDFC.gif" height="160" width="286" alt="Card image cap">
+  <br>
+<br>
+  <div class="card-block">
+    <h4 class="card-title">HDFC insurance&nbsp;&nbsp;<i id="star" class="fas fa-star"></i></h4>
+    <p class="card-text">The main moto of HDFC insurance company is to hire best coders all over the World</p>
+    <a href="#" class="btn btn-primary">Register</a>
+    <br>
+<br>
+  </div>
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="row" style="margin-top:70px">
+<div class="col-lg-2">
+  </div>
+<div class="col-lg-4">
+<div class="card">
+    <div class="card-block">
+  <img class="card-img-top" src="https://www.acm.org/binaries/content/gallery/acm/ctas/code_2018.jpg/code_2018.jpg/acm%3Adesktopcta" height="160" width="286" alt="Card image cap">
+  <br>
+<br>
+  <div class="card-block">
+    <h4 class="card-title">N Code&nbsp;&nbsp;<i id="star" class="fas fa-star"></i></h4>
+    <p class="card-text">N-Code is the programming contest for annual technical fest Abhikalpan'16 of IIIT Jabalpur . Contest is open for all students.</p>
+    <a href="#" class="btn btn-primary">Register</a>
+    <br>
+<br>
+  </div>
+</div>
+</div>
+
+</div>
+<br>
+
+<div class="col-lg-4">
+<div class="card">
+    <div class="card-block">
+  <img class="card-img-top" src="https://media.giphy.com/media/3ohze15TQsHnWxQfm0/giphy.gif" height="160" width="286" alt="Card image cap">
+  <br>
+<br>
+  <div class="card-block">
+    <h4 class="card-title">X Code&nbsp;&nbsp;<i id="star" class="fas fa-star"></i></h4>
+    <p class="card-text">Xcode is an integrated development for macOS containing a suite of software development tools developed by Apple.</p>
+    <a href="#" class="btn btn-primary">Register</a>
+    <br>
+<br>
+  </div>
+</div>
+</div>
+
+
+</div>
+<br>
+</div>
+<div class="row" style="margin-top:70px">
+<div class="col-lg-2">
+  </div>
+<div class="col-lg-4">
+<div class="card">
+    <div class="card-block">
+  <img class="card-img-top" src="https://78.media.tumblr.com/ba8c705edd2bed0a28d9458811155d69/tumblr_onxkyoloha1w05w8zo1_500.gif" height="160" width="286" alt="Card image cap">
+  <br>
+<br>
+  <div class="card-block">
+    <h4 class="card-title">Code Cadet&nbsp;&nbsp;<i id="star" class="fas fa-star"></i></h4>
+    <p class="card-text">Code Cadet is a series of coding contest for freshmen to encourage coding culture and improve their skills.</p>
+    <a href="#" class="btn btn-primary">Register</a>
+    <br>
+<br>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+<div class="col-lg-4">
+<div class="card">
+    <div class="card-block">
+  <img class="card-img-top" src="https://hackerearth-media.global.ssl.fastly.net/media/hackathon/predict-the-criminal/images/7e5b5d2ce5-2.gif" height="160" width="286" alt="Card image cap">
+  <br>
+<br>
+  <div class="card-block">
+    <h4 class="card-title">Predict the Criminal&nbsp;&nbsp;<i id="star" class="fas fa-star"></i></h4>
+    <p class="card-text">This challenge will help and encourage beginners to acquire the practical skill sets required by a data scientist. </p>
+    <a href="#" class="btn btn-success">Start Now</a>
+    <br>
+<br>
+  </div>
+</div>
+
+</div>
+<br>
+<br>
+<br>
+
+</div>
+</div>
+        </div>
+        <div class="col-lg-3" style="text-align:center">
+           <video  width="80%" height="50%"  autoplay loop muted>
+  <source src=" http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
+  your  browser doesnt suoppprot
+  </video>
+  <div id="accordion" style="padding-right:10px">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          READ OUR NOTES
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        1.Java Notes<br>
+        2.Python Notes<br>
+        3.Data Structure Notes<br>
+        4.Ruby Notes<br>
+        5.Node.js Notes<br>
+        6.Javasprict Notes<br>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          DISCUSSION FORUM
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        This forum is for students who wish to pursue any course in coding from Codeshala. You will find answer to questions, if you have any, related to the coding or the timelines of the application process in different languages.    </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          BOOKMARKS
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapsed" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        If you star any contest on tha main page it will show here
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          NOTIFICATION
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        1. I got a notification but didn't receive any messages.<br>
+        2. Notifications delayed or not received.<br>
+        3. Issues with notification sounds and vibrations. <br>
+        4. Issues with the appearance of the "N" mark and notification badges.<br>
+        5. I have notifications turned ON, so why am I not receiving them?
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+          TRENDS
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+       A Trend line is a bounding line for the price movement of a security. It is formed when a diagonal line can be drawn between a minimum of three or more price pivot points. A line can be drawn between any two points, but it does not qualify as a trend line until tested. Hence the need for the third point, the test. Trend lines are commonly used to decide entry and exit timing when trading securities.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12" id="footer">
+        <center>copyright@2018<br>
+        	Design and Developed by:- Gagan Anand and Nitin Pahwa 	
+        </center>
+      </div>
+    </div>
+
+
+</div>
+  </body>
+  </html>
